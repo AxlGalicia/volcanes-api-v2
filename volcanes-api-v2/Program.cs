@@ -21,10 +21,14 @@ builder.Services.AddDbContext<VolcanDb2Context>(options =>
 builder.Services.AddScoped<IAuthService,AuthService>();
 builder.Services.AddScoped<IHashService, HashService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddSingleton<IHeaderService, HeaderService>();
+builder.Services.AddSingleton<IApplicationConfiguration, ApplicationConfiguration>();
+builder.Services.AddSingleton<ISpacesDigitalOceanService,SpacesDigitalOceanService>();
+builder.Services.AddLogging();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
-    var tokenKey = Encoding.UTF8.GetBytes("name=JwtKey");
+    var tokenKey = Encoding.UTF8.GetBytes(builder.Configuration["JwtKey"]);
     options.TokenValidationParameters = new TokenValidationParameters()
     {
         ValidateIssuer = false,
