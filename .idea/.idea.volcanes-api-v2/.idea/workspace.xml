@@ -9,9 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ba21fe-2e23-4651-adda-44381da4ce32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/volcanes-api-v2/Services/HashService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/volcanes-api-v2/volcanes-api-v2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/volcanes-api-v2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +23,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58c1101f73e954abcd0164b214c2a744d692f8c71bfa8174fa55bb5a51ba/StringLengthAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/97f781e0b41a234fb4a615ccff48c5b2d9c28611cd81496fa261ad4f9113eb/Future.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/axl/Documents/dev/dotnet/net7/volcanes-api-v2/volcanes-api-v2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/axl/Documents/dev/dotnet/net7/volcanes-api-v2/volcanes-api-v2/Services/JwtService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/axlgalicia/Documentos/dev/dotnet/net6/volcanes-api/volcanes-api/appsettings.Development.json&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -58,9 +58,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/home/axlgalicia/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/home/axlgalicia/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/home/axlgalicia/.local/share/Symbols/src&quot;
+      &quot;/home/axl/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/home/axl/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/home/axl/.local/share/Symbols/src&quot;
     ]
   }
 }</component>
@@ -134,6 +134,11 @@
       <workItem from="1700196038506" duration="5966000" />
       <workItem from="1700237783030" duration="11931000" />
       <workItem from="1700258454105" duration="8259000" />
+      <workItem from="1700275607863" duration="8021000" />
+      <workItem from="1700417087337" duration="4424000" />
+      <workItem from="1700447484884" duration="2777000" />
+      <workItem from="1700453423576" duration="439000" />
+      <workItem from="1702685855198" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -143,16 +148,55 @@
       <option name="project" value="LOCAL" />
       <updated>1700200485951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se agrego el controlador de autenticacion y jwt">
+      <option name="closed" value="true" />
+      <created>1700275786856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700275786859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Se agrego el controlador de autenticacion y jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego el controlador de autenticacion y jwt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/volcanes-api-v2/Program.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" initialLine="29" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1105" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1106" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
