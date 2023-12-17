@@ -43,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/axlgalicia/Documentos/dev/dotnet/net6/volcanes-api/volcanes-api/appsettings.Development.json&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,9 +54,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/home/axl/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/home/axl/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/home/axl/.local/share/Symbols/src&quot;
+      &quot;/home/axlgalicia/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/home/axlgalicia/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/home/axlgalicia/.local/share/Symbols/src&quot;
     ]
   }
 }</component>
@@ -130,13 +130,6 @@
       <workItem from="1700196038506" duration="5966000" />
       <workItem from="1700237783030" duration="11931000" />
       <workItem from="1700258454105" duration="8259000" />
-      <workItem from="1700275607863" duration="8021000" />
-      <workItem from="1700417087337" duration="4424000" />
-      <workItem from="1700447484884" duration="2777000" />
-      <workItem from="1700453423576" duration="439000" />
-      <workItem from="1702685855198" duration="263000" />
-      <workItem from="1702696339691" duration="4322000" />
-      <workItem from="1702761832608" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -146,86 +139,16 @@
       <option name="project" value="LOCAL" />
       <updated>1700200485951</updated>
     </task>
-    <task id="LOCAL-00002" summary="Se agrego el controlador de autenticacion y jwt">
-      <option name="closed" value="true" />
-      <created>1700275786856</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700275786859</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes">
-      <option name="closed" value="true" />
-      <created>1702696425589</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702696425589</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal">
-      <option name="closed" value="true" />
-      <created>1702786207057</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1702786207057</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Primer commit" />
-    <MESSAGE value="Se agrego el controlador de autenticacion y jwt" />
-    <MESSAGE value="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes" />
-    <MESSAGE value="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/volcanes-api-v2/Program.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" initialLine="29" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1105" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1106" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/volcanes-api-v2/Controllers/VolcanesController.cs</url>
-          <line>85</line>
-          <properties documentPath="$PROJECT_DIR$/volcanes-api-v2/Controllers/VolcanesController.cs" initialLine="85" containingFunctionPresentation="Method 'post'">
-            <startOffsets>
-              <option value="2659" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2704" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
 </project>
