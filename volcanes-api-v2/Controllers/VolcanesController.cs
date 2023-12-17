@@ -82,27 +82,19 @@ public class VolcanesController : ControllerBase
     public async Task<ActionResult> post([FromForm] VolcanCreacionDTO volcan)
     {
         InformationMessage("Se ejecuto solicitud Post");
-<<<<<<< HEAD
         
         var nombreUsuario = User.Identity?.Name;
 
         var usuarioCreador = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username == nombreUsuario);
         
-=======
-
->>>>>>> origin/main
         var volcanDB = new Volcan()
         {
             Nombre = volcan.Nombre,
             Descripcion = volcan.Descripcion,
             Altura = volcan.Altura,
             Ecosistema = volcan.Ecosistema,
-<<<<<<< HEAD
             Ubicacion = volcan.Ubicacion,
             IdCreador = usuarioCreador.Id
-=======
-            Ubicacion = volcan.Ubicacion
->>>>>>> origin/main
         };
 
         if (volcan.Imagen != null)
