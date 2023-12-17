@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ba21fe-2e23-4651-adda-44381da4ce32" name="Changes" comment="">
+    <list default="true" id="75ba21fe-2e23-4651-adda-44381da4ce32" name="Changes" comment="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/axl/Documents/dev/dotnet/net7/volcanes-api-v2/volcanes-api-v2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/axl/Documents/dev/dotnet/net7/volcanes-api-v2/volcanes-api-v2/Services/JwtService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -138,7 +136,7 @@
       <workItem from="1700453423576" duration="439000" />
       <workItem from="1702685855198" duration="263000" />
       <workItem from="1702696339691" duration="4322000" />
-      <workItem from="1702761832608" duration="2869000" />
+      <workItem from="1702761832608" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -164,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702696425589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal">
+      <option name="closed" value="true" />
+      <created>1702786207057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702786207057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +193,8 @@
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Se agrego el controlador de autenticacion y jwt" />
     <MESSAGE value="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes" />
+    <MESSAGE value="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se edito el tiempo limite de jwt a 1 dia y se agrego el claimPrincipal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

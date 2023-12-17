@@ -82,9 +82,8 @@ public class VolcanesController : ControllerBase
     public async Task<ActionResult> post([FromForm] VolcanCreacionDTO volcan)
     {
         InformationMessage("Se ejecuto solicitud Post");
-
-        //ClaimsPrincipal principal = HttpContext.User;
-        var nombreUsuario = HttpContext.User.Identity?.Name;
+        
+        var nombreUsuario = User.Identity?.Name;
 
         var usuarioCreador = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username == nombreUsuario);
         
