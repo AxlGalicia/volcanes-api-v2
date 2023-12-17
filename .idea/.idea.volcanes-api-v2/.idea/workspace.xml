@@ -10,9 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75ba21fe-2e23-4651-adda-44381da4ce32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.volcanes-api-v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/Services/JwtService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volcanes-api-v2/volcanes-api-v2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/volcanes-api-v2/volcanes-api-v2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +137,8 @@
       <workItem from="1700447484884" duration="2777000" />
       <workItem from="1700453423576" duration="439000" />
       <workItem from="1702685855198" duration="263000" />
+      <workItem from="1702696339691" duration="4322000" />
+      <workItem from="1702761832608" duration="2869000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700275786859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes">
+      <option name="closed" value="true" />
+      <created>1702696425589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702696425589</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +186,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Se agrego el controlador de autenticacion y jwt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego el controlador de autenticacion y jwt" />
+    <MESSAGE value="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron configuraciones necesarias para acoplar el resto del controlador volcanes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -195,6 +204,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/volcanes-api-v2/Controllers/VolcanesController.cs</url>
+          <line>85</line>
+          <properties documentPath="$PROJECT_DIR$/volcanes-api-v2/Controllers/VolcanesController.cs" initialLine="85" containingFunctionPresentation="Method 'post'">
+            <startOffsets>
+              <option value="2659" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2704" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
