@@ -59,6 +59,9 @@ public class AuthService : IAuthService
             return new ResponseLoginDto() { Proceso = false};
         
         var token = _jwtService.JwtGenerate(usuarioDb);
+        
+        usuarioDb.FechaLimite = DateTime.UtcNow.AddDays(1);
+        await _context.SaveChangesAsync();
 
         return new ResponseLoginDto() { Token = token, Proceso = true};
     }
